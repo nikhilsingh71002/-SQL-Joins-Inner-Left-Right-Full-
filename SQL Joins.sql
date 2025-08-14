@@ -76,8 +76,3 @@ UNION
 SELECT Customers.Name, Orders.Product
 FROM Orders
 LEFT JOIN Customers ON Customers.CustomerID = Orders.CustomerID;
-
-
-If you want, I can make a **single SQL script** containing all joins in one go, so you can run it and see all results step-by-step. That way, you won’t have to copy-paste queries separately.
-
-Do you want me to prepare that combined script?
